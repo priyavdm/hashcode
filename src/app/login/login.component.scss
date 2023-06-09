@@ -1,0 +1,42 @@
+// Define variables for reusable values
+$form-spacing: 1rem;
+$form-border-radius: 4px;
+$form-input-height: 45px;
+$form-button-background: #007bff;
+$form-button-color: #fff;
+
+// Style the form container
+form {
+  max-width: 400px;
+  margin: 0 auto;
+
+  .form-group {
+    margin-bottom: $form-spacing;
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    input {
+      width: 100%;
+      height: $form-input-height;
+      padding: 0.5rem;
+      margin-top: 0.2rem;
+      border: 1px solid #ccc;
+      border-radius: $form-border-radius;
+    }
+  }
+
+  button {
+    width: 105%;
+    height: $form-input-height;
+    background-color: $form-button-background;
+    color: $form-button-color;
+    border: none;
+    border-radius: $form-border-radius;
+    cursor: pointer;
+  }
+}
+
+// Add additional styles as needed
